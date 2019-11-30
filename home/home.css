@@ -1,0 +1,76 @@
+body, html {
+    height: 100%;
+    width: auto;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resource-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 80%;
+    object-fit:scale-down;
+    justify-content: space-around;
+    margin: auto;
+    position: fixed;
+    overflow-y: scroll;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+}
+    
+img.link {
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+}
+
+.services h1 {
+    margin-left: 20px;
+    width: 150px;
+}
+
+.hidden {
+    display: none;
+}
+
+label {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/*Smart phones landscape*/
+
+
+
+/* Tablets */
+@media (min-width: 400px) {
+    
+    
+}
+
+/* Desktop */
+
+@media (min-width: 960px) {
+
+    .resource-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+}

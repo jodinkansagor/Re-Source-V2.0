@@ -1,0 +1,60 @@
+
+p, li {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.about-us {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+#containerRCR {
+    max-height: 1050px;
+    max-width: 200px;
+    padding: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-bottom: 1em;
+    border-radius: 10%;
+}
+
+.container {
+    border: solid 2px slategray;
+    max-height: 300px;
+    max-width: 200px;
+    padding: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-bottom: 1em;
+    border-radius: 10%;
+   justify-content: space-around;
+}
+
+.name-bold {
+    font-size: 1.5em;
+} 
+
+@media (min-width: 600px) {
+    
+    .people {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .people .container {
+        height: 200px;
+    }
+
+    #containerRCR {
+        max-width: 500px;
+        border: none;
+    }
+}
